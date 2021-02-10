@@ -1619,9 +1619,9 @@ window.__require = function e(t, n, o) {
                   t.createFruitCount++) : 2 == t.createFruitCount ? (a.default.Instance.createOneFruit(1),
                   t.createFruitCount++) : 3 == t.createFruitCount ? (a.default.Instance.createOneFruit(2),
                   t.createFruitCount++) : 4 == t.createFruitCount ? (a.default.Instance.createOneFruit(2),
-                  //t.createFruitCount++) : 5 == t.createFruitCount ? (a.default.Instance.createOneFruit(3),
-                  t.createFruitCount++) : t.createFruitCount > 4 &&
-                  (a.default.Instance.createOneFruit(s.default.RandomInteger(0, 4)),
+                  t.createFruitCount++) : 5 == t.createFruitCount ? (a.default.Instance.createOneFruit(9),
+                  t.createFruitCount++) : t.createFruitCount > 5 &&
+                  (a.default.Instance.createOneFruit(s.default.RandomInteger(0, 5)),
                     t.createFruitCount++))
               }
             }, .5))
